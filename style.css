@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 300px;
+  height: 300px;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+td.active {
+  background-color: lightblue;
+}
